@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: coll001
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 10em # Default is 8em
 # optional: change position of background image, center, top, bottom
@@ -58,9 +58,9 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,referenceCode,legacyId,parentId,qubitParentSlug,accessionNumber,title,radGeneralMaterialDesignation,alternateTitle,radOtherTitleInformation,radTitleStatementOfResponsibility,radTitleStatementOfResponsibilityNote,radTitleAttributionsAndConjectures,radTitleContinues,radTitleSourceOfTitleProper,radTitleVariationsInTitle,radTitleParallelTitles,levelOfDescription,repository,identifier,radEdition,radEditionStatementOfResponsibility,radStatementOfScaleCartographic,radStatementOfProjection,radStatementOfCoordinates,radStatementOfScaleArchitectural,radIssuingJurisdiction,extentAndMedium,radTitleProperOfPublishersSeries,radParallelTitlesOfPublishersSeries,radOtherTitleInformationOfPublishersSeries,radStatementOfResponsibilityRelatingToPublishersSeries,radNumberingWithinPublishersSeries,radPublishersSeriesNote,radNoteOnPublishersSeries,archivalHistory,scopeAndContent,physicalCharacteristics,acquisition,arrangement,language,script,languageNote,locationOfOriginals,locationOfCopies,accessConditions,reproductionConditions,findingAids,relatedUnitsOfDescription,accruals,radNoteAccompanyingMaterial,radNoteAlphaNumericDesignation,radNoteConservation,radNoteEdition,radNotePhysicalDescription,radNotePublishersSeries,radNoteRights,radNoteSignaturesInscriptions,radNoteCast,radNoteCredits,radStandardNumber,subjectAccessPoints,placeAccessPoints,nameAccessPoints,genreAccessPoints,descriptionIdentifier,institutionIdentifier,rules,descriptionStatus,levelOfDetail,revisionHistory,languageOfDescription,scriptOfDescription,sources,publicationStatus,digitalObjectURI,digitalObjectChecksum,generalNote,appraisal,physicalObjectName,physicalObjectLocation,physicalObjectType,alternativeIdentifiers,alternativeIdentifierLabels,eventDates,eventTypes,eventStartDates,eventEndDates,eventDescriptions,eventActors,eventActorHistories,eventPlaces,slug,culture"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subjectAccessPoints,radEditionStatementOfResponsibility,radGeneralMaterialDesignation"
 
 ##########
 # COMPOUND OBJECTS
